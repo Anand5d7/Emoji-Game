@@ -1,0 +1,79 @@
+/* Write your code here. */
+
+.navbar-container {
+  background-color: #ffffff33;
+  background-size: cover;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+.navbar-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-pic {
+  height: 30px;
+  width: 40px;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+.top-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    height: 12vh;
+  }
+  .navbar-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar-title-container {
+    margin-right: 400px;
+    margin-left: 60px;
+  }
+  .logo-pic {
+    height: 50px;
+    width: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .score {
+    font-size: 23px;
+  }
+  .top-score {
+    font-size: 23px;
+  }
+}

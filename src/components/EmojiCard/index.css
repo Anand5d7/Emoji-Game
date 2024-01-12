@@ -1,0 +1,38 @@
+/* Write your code here. */
+.emoji-container-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #ffffff33;
+  background-size: cover;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  border: 2px solid #ffffff30;
+}
+.emoji-pic {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    height: 23vh;
+    width: 12vw;
+  }
+  .emoji-pic {
+    height: 100px;
+    width: 100px;
+  }
+}
